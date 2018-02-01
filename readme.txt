@@ -3,6 +3,7 @@
 /* AUTHOR:    James Armitage, Teradata                                    */
 /* VERSION:   1.0                                                         */
 /* CHANGELOG:                                                             */
+/* GIT:       https://github.com/jarmitagetd/tpt-export       
 /*------------------------------------------------------------------------*/        
 /* LICENSE: TPT export for large transactional volume and reference data. */
 /*          Copyright (C) 2017 James Armitage                             */
@@ -20,7 +21,8 @@
 /*  You should have received a copy of the GNU General Public License     */
 /*  along with this program.  If not, see <http://www.gnu.org/licenses/>. */
 /*------------------------------------------------------------------------*/                                                       
-/* INSTALL:   1) Copy the folder tptexport to your Linux home directory.  */
+/* INSTALL:   1) Copy or git clone the folder\repo tptexport to your      */ 
+/*               Linux home directory.                                    */
 /*            2) Excute permissions.sh as root\sudo (steps below)         */
 /*                -- sudo groupadd tpt-export                             */
 /*                -- sudo useradd -g tpt-export tpt-export                */
