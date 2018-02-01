@@ -1,0 +1,33 @@
+/***********************************************************************/
+/* TPT attributes                                                       /
+/***********************************************************************/
+
+/*---------------------------------------------------------------------*/
+/* Export Operator Attributes                                          */
+/* Add your parameters where indicated by []                           */
+/*---------------------------------------------------------------------*/
+TdpId = [XX.XX.XX.XX]
+UserName = [USERNAME]
+UserPassword = [PASSWORD]
+EXPrivateLogName = export_privatelog
+MaxSessions = 32 
+MinSessions = 1
+DateForm = ANSIDATE
+
+/*---------------------------------------------------------------------*/
+/* File Writer Operator Attributes                                     */
+/*---------------------------------------------------------------------*/
+FWPrivateLogName = file_writer_privatelog
+IndicatorMode = N
+Format = Delimited
+Delimiter = ,
+Quotes = yes
+DirectoryPath = output
+FileExtension = csv
+
+
+
+
+
+
+
