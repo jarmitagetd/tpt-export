@@ -22,8 +22,8 @@
 #-------------------------------------------------------------------------------#
 
 clear
-# add tpt to PATH
-PATH=$PATH:/opt/teradata/client/15.10/bin/tbuild
+# add tpt to PATH if required.  Better to add to user environment or profile
+#PATH=$PATH:/opt/teradata/client/15.10/bin/tbuild
 
 # echo pid to file
 echo $$ > pid
